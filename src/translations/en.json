@@ -758,6 +758,7 @@
       },
       "language-picker": {
         "language": "Language",
+        "no_match": "No matching languages found",
         "no_languages": "No languages available"
       },
       "tts-picker": {
@@ -3944,7 +3945,6 @@
               "add": "Add trigger",
               "empty_search": "No triggers found for {term}",
               "id": "Trigger ID",
-              "id_helper": "Helps identify each run based on which trigger fired.",
               "optional": "Optional",
               "edit_id": "Edit ID",
               "duplicate": "[%key:ui::common::duplicate%]",
@@ -6942,7 +6942,8 @@
             "areas": "Areas",
             "other_areas": "Other areas",
             "unamed_device": "Unnamed device",
-            "others": "Others"
+            "others": "Others",
+            "automations": "Automations"
           },
           "common_controls": {
             "not_loaded": "Usage Prediction integration is not loaded.",
@@ -7074,10 +7075,10 @@
             "energy_devices_graph": {
               "energy_usage": "Energy usage",
               "previous_energy_usage": "Previous energy usage",
-              "total_energy_usage": "Total energy usage",
+              "total_energy_usage": "Total",
               "change_chart_type": "Change chart type",
-              "untracked": "untracked",
-              "includes_untracked": "Includes {num} kWh of untracked energy"
+              "untracked_consumption": "Untracked consumption",
+              "untracked": "untracked"
             },
             "energy_devices_detail_graph": {
               "untracked_consumption": "Untracked consumption",
@@ -7650,7 +7651,8 @@
             },
             "logbook": {
               "name": "Activity",
-              "description": "The Activity card shows a list of events for entities."
+              "description": "The Activity card shows a list of events for entities.",
+              "state_filter": "State filter"
             },
             "history-graph": {
               "name": "History graph",
@@ -8152,6 +8154,10 @@
               },
               "media-player-playback": {
                 "label": "Media player playback controls"
+              },
+              "media-player-volume-buttons": {
+                "label": "Media player volume buttons",
+                "step": "Step size"
               },
               "media-player-volume-slider": {
                 "label": "Media player volume slider"
